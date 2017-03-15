@@ -164,6 +164,16 @@ nav {
     transform: scale(1.2); }
   100% {
     transform: scale(1); } }
+footer p {
+  margin-top: 14px;
+  color: White; }
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #333333;
+  min-height: 45px; }
+
 a > .btn-dot {
   left: 50%;
   margin-left: -25px;
