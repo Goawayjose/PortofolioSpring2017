@@ -71,20 +71,72 @@ nav {
 .navButton {
   display: table-row;
   float: right;
-  height: 100%;
+  height: auto;
   background-color: transparent;
   color: $grey;
   font-size: 16px;
-  margin: 4px;
-  padding: 4px;
-  border: $grey 1.5px solid;
+  border: transparent 1.5px solid;
   border-radius: 6px;
-  transition: all 0.4s ease-in;
+  transition: all 0.3s ease-in;
+  &:hover .cls-1{
+      stroke:$magenta;
+  }
+}
+
+.navButton p {
+  color: white;
+}
+
+.navButton svg{
+    min-height: 40;
+    width: 40;
+    position: relative;
+}
+
+.bottomSpace {
+  margin-bottom: 20px;
+}
+
+.tiny {
+  font-size: 10px;
+}
+
+.subTitle {
+  font-size: 2rem;
+}
+
+footer .col-sm-4 {
+  padding-top: 30px;
+}
+
+footer .navButton {
+  left: -7px;
+position: relative;
+}
+
+footer a {
+  color: $grey;
   &:hover {
-    border-radius: 4px;
-    border: $magenta 1.5px solid;
     color: $magenta;
   }
+}
+
+footer i {
+  color: $grey;
+  font-size: 40px !important;
+  transition: all 0.3s ease-in;
+  &:hover {
+    color: $magenta;
+  }
+}
+
+.cls-1{
+  transition: all 0.4s ease-in;
+  height:100%;
+  position: relative;
+  fill:none;
+  stroke:$grey;
+  stroke-miterlimit:10;
 }
 
 .imgMiddle {
@@ -159,21 +211,23 @@ nav {
   max-height: 200px;
 }
 
-#pph {
-  background-image: url(../images/pp.png);
+
+
+#metro {
+  background-image: url(../images/metro/station.png);
   background-position: center;
   background-size: cover;
 }
 
 
 #cafe {
-  background-image: url(../images/cafe.jpg);
-  background-position: center;
+  background-image: url(../images/itunes/beatles.jpg);
+  background-position: right;
   background-size: cover;
 }
 
 #senscience {
-  background-image: url(../images/senscience.jpg);
+  background-image: url(../images/sunnies/DerekImg.png);
   background-position: center;
   background-size: cover;
 }
@@ -297,4 +351,8 @@ margin-bottom: 0px;
 .smallTop {
   margin-top: 64px;
   margin-bottom: 36px;
+}
+
+.maria {
+  max-width: 120px;
 }

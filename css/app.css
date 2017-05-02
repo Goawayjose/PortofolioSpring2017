@@ -51,19 +51,59 @@ nav {
 .navButton {
   display: table-row;
   float: right;
-  height: 100%;
+  height: auto;
   background-color: transparent;
   color: #E5E5E5;
   font-size: 16px;
-  margin: 4px;
-  padding: 4px;
-  border: #E5E5E5 1.5px solid;
+  border: transparent 1.5px solid;
   border-radius: 6px;
-  transition: all 0.4s ease-in; }
-  .navButton:hover {
-    border-radius: 4px;
-    border: #FF0076 1.5px solid;
+  transition: all 0.3s ease-in; }
+  .navButton:hover .cls-1 {
+    stroke: #FF0076; }
+
+.navButton p {
+  color: white; }
+
+.navButton svg {
+  min-height: 40;
+  width: 40;
+  position: relative; }
+
+.bottomSpace {
+  margin-bottom: 20px; }
+
+.tiny {
+  font-size: 10px; }
+
+.subTitle {
+  font-size: 2rem; }
+
+footer .col-sm-4 {
+  padding-top: 30px; }
+
+footer .navButton {
+  left: -7px;
+  position: relative; }
+
+footer a {
+  color: #E5E5E5; }
+  footer a:hover {
     color: #FF0076; }
+
+footer i {
+  color: #E5E5E5;
+  font-size: 40px !important;
+  transition: all 0.3s ease-in; }
+  footer i:hover {
+    color: #FF0076; }
+
+.cls-1 {
+  transition: all 0.4s ease-in;
+  height: 100%;
+  position: relative;
+  fill: none;
+  stroke: #E5E5E5;
+  stroke-miterlimit: 10; }
 
 .imgMiddle {
   position: relative;
@@ -123,18 +163,18 @@ nav {
 .personaImg {
   max-height: 200px; }
 
-#pph {
-  background-image: url(../images/pp.png);
+#metro {
+  background-image: url(../images/metro/station.png);
   background-position: center;
   background-size: cover; }
 
 #cafe {
-  background-image: url(../images/cafe.jpg);
-  background-position: center;
+  background-image: url(../images/itunes/beatles.jpg);
+  background-position: right;
   background-size: cover; }
 
 #senscience {
-  background-image: url(../images/senscience.jpg);
+  background-image: url(../images/sunnies/DerekImg.png);
   background-position: center;
   background-size: cover; }
 
@@ -235,5 +275,8 @@ a > .btn-view {
 .smallTop {
   margin-top: 64px;
   margin-bottom: 36px; }
+
+.maria {
+  max-width: 120px; }
 
 /*# sourceMappingURL=app.css.map */

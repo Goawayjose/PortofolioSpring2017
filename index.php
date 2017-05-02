@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Jose Ramirez</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Latest compiled and minified CSS -->
@@ -22,7 +22,9 @@
           <div id="logo"></div>
           <a href="#">
             <span class="navButton">
-                Resume
+                <svg viewBox="0 0 47.48 34.87">
+                  <path class="cls-1" d="M10.18,14.54s2.19,3.25,8.44-1.06,9.94-8.19,10.13-8.62,1-2.81-.87,0S11.25,35,3.18,34.36,7,22.67,15.43,20.29s13-.12,17.21-6.79,3-15.17,2-12.5-2.83,19.33-12,27.17S32.64,5,37.14,5s9.67.67,9.83,3.17-21.5,10.5-14.5,12S43,21,43,21"/>
+                </svg>
             </span>
           </a>
         </div>
@@ -35,8 +37,8 @@
             </div>
             <div class="col-md-6">
               <h1>Jose Ramirez</h1>
-              <h2>Interaction Designer</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere optio reiciendis, sapiente corporis a necessitatibus numquam expedita, dolorum maiores officia labore, eos est sunt distinctio eligendi. Reiciendis quas molestiae, tempora.</p>
+              <h2 class="subTitle">Interaction Designer & Front-end Developer</h2>
+              <p>Interaction Design Major at ArtCenter College of Design. Guided by insights from users; I experiment with possibilities in technology and design. </p>
             </div>
           </div>
         </div>
@@ -47,6 +49,27 @@
             </div>
           </div>
           <div class="row options">
+
+            <a href="views/itunes.html">
+              <div class="col-md-6">
+                <div class="template">
+                  <div class="imgHide">
+                  <div class="workImg" id="cafe"></div>
+                  </div>
+                  <h3>Spotify Pop Bubbles</h3>
+                </div>
+            </div>
+            </a>
+            <a href="views/Delta.html">
+              <div class="col-md-6">
+                <div class="template">
+                  <div class="imgHide">
+                  <div class="workImg" id="delta"></div>
+                  </div>
+                  <h3>Delta Website Redesign</h3>
+                </div>
+              </div>
+            </a>
             <a href="views/Stylist.html">
               <div class="col-md-6">
                 <div class="template">
@@ -57,45 +80,15 @@
                 </div>
               </div>
             </a>
-            <a href="views/Metro.html">
+            <a href="views/metro.html">
               <div class="col-md-6">
               <div class="template">
                 <div class="imgHide">
-                <div class="workImg" ></div>
+                <div class="workImg" id="metro"></div>
                 </div>
                 <h3>Los Angeles Metro App</h3>
               </div>
             </div>
-            </a>
-            <a href="views/Sunnies.html">
-              <div class="col-md-4">
-                <div class="template">
-                  <div class="imgHide">
-                  <div class="workImg" id="senscience"></div>
-                  </div>
-                  <h3>Sunnies</h3>
-                </div>
-              </div>
-            </a>
-            <a href="views/itunes.html">
-              <div class="col-md-4">
-                <div class="template">
-                  <div class="imgHide">
-                  <div class="workImg" id="cafe"></div>
-                  </div>
-                  <h3>Apple Music Discover</h3>
-                </div>
-            </div>
-            </a>
-            <a href="views/Delta.html">
-              <div class="col-md-4">
-                <div class="template">
-                  <div class="imgHide">
-                  <div class="workImg" id="delta"></div>
-                  </div>
-                  <h3>Delta Website Redesign</h3>
-                </div>
-              </div>
             </a>
           </div>
         </div>
@@ -106,7 +99,7 @@
           <div class="row">
             <div class="col-md-12">
               <h1 class="title">
-                Skillsets
+                Skill Set
               </h1>
             </div>
           </div>
