@@ -30,57 +30,26 @@
         </div>
       </nav>
       <div class="container">
-        <div class="top ">
-          <div class="row">
-            <div class="col-md-6">
-              <img src="images/me.jpg" alt="">
-            </div>
-            <div class="col-md-6">
-              <h1>Jose Ramirez</h1>
-              <h2 class="subTitle">Interaction Designer & Front-end Developer</h2>
-              <p>Interaction Design Major at ArtCenter College of Design. Guided by insights from users; I experiment with possibilities in technology and design. </p>
-            </div>
-          </div>
-        </div>
         <div class="work">
-          <div class="row">
+          <div class="row top">
             <div class="col-md-12">
-                  <h1 class="title">Featured Work</h1>
+              <h1>Jose Ramirez</h1>
+              <h2 class="subTitle">Interaction Designer</h2>
+              <h4 class="title">Featured work</h4>
             </div>
           </div>
           <div class="row options">
-
-            <a href="views/itunes.html">
+            <a href="images/portfolio.pdf">
               <div class="col-md-6">
-                <div class="template">
-                  <div class="imgHide">
-                  <div class="workImg" id="cafe"></div>
-                  </div>
-                  <h3>Spotify Pop Bubbles</h3>
+              <div class="template">
+                <div class="imgHide">
+                <div class="workImg" id="HyperBoost"></div>
                 </div>
+                <h3>HyperBoost</h3>
+              </div>
             </div>
             </a>
-            <a href="views/Delta.html">
-              <div class="col-md-6">
-                <div class="template">
-                  <div class="imgHide">
-                  <div class="workImg" id="delta"></div>
-                  </div>
-                  <h3>Delta Website Redesign</h3>
-                </div>
-              </div>
-            </a>
-            <a href="views/Stylist.html">
-              <div class="col-md-6">
-                <div class="template">
-                  <div class="imgHide">
-                  <div class="workImg"></div>
-                  </div>
-                  <h3>Personal Styling App</h3>
-                </div>
-              </div>
-            </a>
-            <a href="views/metro.html">
+            <a href="views/metro.php">
               <div class="col-md-6">
               <div class="template">
                 <div class="imgHide">
@@ -90,11 +59,31 @@
               </div>
             </div>
             </a>
+            <a href="images/itunes/spotify2.pdf">
+              <div class="col-md-6">
+                <div class="template">
+                  <div class="imgHide">
+                  <div class="workImg" id="cafe"></div>
+                  </div>
+                  <h3>Spotify Pop Bubbles</h3>
+                </div>
+            </div>
+            </a>
+            <a href="views/Stylist.php">
+              <div class="col-md-6">
+                <div class="template">
+                  <div class="imgHide">
+                  <div class="workImg"></div>
+                  </div>
+                  <h3>Personal Styling App</h3>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
 
-      <div class="secondWork">
+    <!--  <div class="secondWork">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -155,7 +144,7 @@
 
         </div>
       </div>
-
+ -->
       <footer>
         <div class="container">
           <p>&copy; Jose Ramirez 2017</p>

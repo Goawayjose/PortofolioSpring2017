@@ -2,7 +2,7 @@ $grey : #E5E5E5;
 $lightgrey : #B2B2B2;
 $black : #333333;
 $blue : #A4C4CC;
-$magenta : #FF0076;
+$magenta : #d9534f;
 
 *, html {
   margin: 0;
@@ -18,6 +18,7 @@ a {
 body {
   background-color: $grey;
   font-family: 'Roboto', sans-serif;
+
 }
 
 h1, h2, h3 {
@@ -56,10 +57,20 @@ nav {
 
 .top {
   position: relative;
-  margin-top: 80px;
+  margin-top: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
-  min-height: 60vh;
+  h1 {
+      margin-top: -10px;
+  }
+  h2 {
+    margin-top: -12px;
+  }
+
+  .title {
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
 }
 
 .top img {
@@ -177,8 +188,13 @@ footer i {
   }
 }
 
+.template >   p {
+    padding: 10px;
+    margin-top: -25px;
+  }
+
 .template > h3 {
-  padding: 5px;
+  padding: 10px;
 }
 
 .title {
@@ -193,7 +209,7 @@ footer i {
 }
 
 .imgBlur {
-  filter: blur(5px) brightness(0.7);
+  filter: blur(1px) brightness(0.7);
 }
 
 .workImg {
@@ -214,11 +230,16 @@ footer i {
 
 
 #metro {
-  background-image: url(../images/metro/station.png);
+  background-image: url(../images/metro/HeaderTemplate.jpg);
   background-position: center;
   background-size: cover;
 }
 
+#HyperBoost {
+  background-image: url(../images/hb.png);
+  background-position: center;
+  background-size: cover;
+}
 
 #cafe {
   background-image: url(../images/itunes/beatles.jpg);

@@ -13,7 +13,7 @@ h1, h2, h3 {
   font-family: 'Raleway', sans-serif; }
 
 h2 {
-  color: #FF0076; }
+  color: #d9534f; }
 
 h1 {
   font-size: 40px; }
@@ -39,10 +39,16 @@ nav {
 
 .top {
   position: relative;
-  margin-top: 80px;
+  margin-top: 50px;
   padding-top: 20px;
-  padding-bottom: 20px;
-  min-height: 60vh; }
+  padding-bottom: 20px; }
+  .top h1 {
+    margin-top: -10px; }
+  .top h2 {
+    margin-top: -12px; }
+  .top .title {
+    margin-bottom: 0px;
+    margin-top: 20px; }
 
 .top img {
   position: relative;
@@ -59,7 +65,7 @@ nav {
   border-radius: 6px;
   transition: all 0.3s ease-in; }
   .navButton:hover .cls-1 {
-    stroke: #FF0076; }
+    stroke: #d9534f; }
 
 .navButton p {
   color: white; }
@@ -88,14 +94,14 @@ footer .navButton {
 footer a {
   color: #E5E5E5; }
   footer a:hover {
-    color: #FF0076; }
+    color: #d9534f; }
 
 footer i {
   color: #E5E5E5;
   font-size: 40px !important;
   transition: all 0.3s ease-in; }
   footer i:hover {
-    color: #FF0076; }
+    color: #d9534f; }
 
 .cls-1 {
   transition: all 0.4s ease-in;
@@ -130,17 +136,21 @@ footer i {
   margin-bottom: 20px;
   transition: all 0.5s ease-out; }
   .template:hover {
-    border-bottom: #FF0076 1px solid;
+    border-bottom: #d9534f 1px solid;
     background: white; }
   .template:hover > .imgHide > .workImg {
     transform: scale(1); }
 
+.template > p {
+  padding: 10px;
+  margin-top: -25px; }
+
 .template > h3 {
-  padding: 5px; }
+  padding: 10px; }
 
 .title {
   color: #333333;
-  border-bottom: #FF0076 2px solid;
+  border-bottom: #d9534f 2px solid;
   padding-bottom: 15px;
   margin-bottom: 20px; }
 
@@ -148,7 +158,7 @@ footer i {
   transition: filter 0.5s ease-out; }
 
 .imgBlur {
-  filter: blur(5px) brightness(0.7); }
+  filter: blur(1px) brightness(0.7); }
 
 .workImg {
   transition: transform 5s ease-out;
@@ -164,7 +174,12 @@ footer i {
   max-height: 200px; }
 
 #metro {
-  background-image: url(../images/metro/station.png);
+  background-image: url(../images/metro/HeaderTemplate.jpg);
+  background-position: center;
+  background-size: cover; }
+
+#HyperBoost {
+  background-image: url(../images/hb.png);
   background-position: center;
   background-size: cover; }
 
@@ -217,7 +232,7 @@ footer {
 a > .btn-dot {
   left: 50%;
   margin-left: -25px;
-  background-color: #FF0076;
+  background-color: #d9534f;
   height: 50px;
   width: 50px;
   border-radius: 50px;
@@ -238,7 +253,7 @@ a > .btn-dot {
       color: #E5E5E5; }
 
 .colorRed {
-  color: #FF0076; }
+  color: #d9534f; }
 
 .btn-dot i {
   color: white;
@@ -250,7 +265,7 @@ a > .btn-view {
   margin-left: -75px;
   position: relative;
   color: white;
-  background-color: #FF0076;
+  background-color: #d9534f;
   height: 40px;
   width: 150px;
   text-align: center;
